@@ -1,0 +1,8 @@
+device: "cuda"
+mode: "fused"
+fused_weight_2d: 0.8
+allow_fallback: true
+face3d_model_tar: "models/team_face3d_model.tar"
+align_size_3d: 224
+align_template_3d: 1.12
+align_border_3d: "reflect"

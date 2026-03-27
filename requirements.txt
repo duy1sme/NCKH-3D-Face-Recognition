@@ -1,0 +1,14 @@
+﻿numpy==1.23.5
+scipy==1.10.1
+opencv-python==4.8.1.78
+scikit-image==0.21.0
+pillow==10.2.0
+trimesh==3.23.5
+insightface==0.7.3
+onnxruntime==1.16.3
+yacs==0.1.8
+kornia==0.6.12
+loguru==0.7.2
+chumpy==0.70
+torchfile==0.1.0
+tqdm==4.66.4

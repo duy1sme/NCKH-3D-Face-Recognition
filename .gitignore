@@ -1,0 +1,42 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large artifacts / local data
+datasets/
+outputs/
+outputs (1)/
+report_best/
+images/
+DECA/
+*.zip
+*.tar
+*.ckpt
+*.onnx
+*.pth
+*.pt
+
+# Keep model folder docs, ignore heavy model files
+models/*
+!models/README.md
+
+# Keep sample folder docs, ignore large sample images by default
+assets/sample_images/*
+!assets/sample_images/README.md
+
+# Logs / temp
+*.log
+*.tmp
+*.bak
+
+NCKH/
